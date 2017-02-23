@@ -1,6 +1,7 @@
 #NPM
 node_modules
 npm-debug.log
+.npmignore
 
 #Testing
 test
@@ -9,6 +10,7 @@ coverage
 #CI
 .travis.yml
 .codeclimate.yml
+appveyor.yml
 
 #DevOps
 scripts
@@ -17,3 +19,4 @@ scripts
 *.js.map
 *.ts
 !*.d.ts
+tsconfig.json
