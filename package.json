@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "prepublish": "npm test",
     "pretest": "npm run build",
     "test": "npm run unit-tests",
     "unit-tests": "alsatian \"./**/*.spec.js\""
