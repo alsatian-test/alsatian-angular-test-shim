@@ -9,6 +9,7 @@
       "preserveConstEnums": true,
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
+      "newLine": "LF",
       "lib": [ "es5", "dom" ]
    },
    "buildOnSave": false,
