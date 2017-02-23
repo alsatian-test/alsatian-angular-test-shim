@@ -23,6 +23,8 @@
     "@types/core-js": "^0.9.35",
     "@types/jsdom": "^2.0.30",
     "alsatian": "^1.2.1",
+    "codeclimate-test-reporter": "^0.4.1",
+    "coveralls": "^2.11.16",
     "typescript": "^2.2.1"
   },
   "dependencies": {

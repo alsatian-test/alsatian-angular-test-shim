@@ -1,0 +1,9 @@
+engines:
+  fixme:
+    enabled: true
+ratings:
+  paths:
+    - "cli/**/*.ts"
+    - "core/**/*.ts"
+exclude_paths:
+  - test/
