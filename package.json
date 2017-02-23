@@ -4,7 +4,10 @@
   "description": "A shim for testing Angular component templates with Alsatian",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "npm run unit-tests",
+    "unit-tests": "alsatian \"./**/*.spec.js\""
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,9 @@
   },
   "homepage": "https://github.com/alsatian-test/alsatian-angular-test-shim#readme",
   "devDependencies": {
+    "@types/core-js": "^0.9.35",
     "@types/jsdom": "^2.0.30",
+    "alsatian": "^1.2.1",
     "typescript": "^2.2.1"
   },
   "dependencies": {

@@ -5,7 +5,7 @@ import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from "@ang
 
 const document = jsdom("<!doctype html><html><body></body></html>");
 
-const window = document.parentWindow;
+const window = document.defaultView;
 
 (global as any).document = document;
 (global as any).HTMLElement = (window as any).HTMLElement;
