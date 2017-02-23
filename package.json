@@ -17,6 +17,17 @@
   },
   "homepage": "https://github.com/alsatian-test/alsatian-angular-test-shim#readme",
   "devDependencies": {
+    "@types/jsdom": "^2.0.30",
     "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.8",
+    "@angular/compiler": "^2.4.8",
+    "@angular/core": "^2.4.8",
+    "@angular/platform-browser": "^2.4.8",
+    "@angular/platform-browser-dynamic": "^2.4.8",
+    "jsdom": "^9.11.0",
+    "rxjs": "^5.2.0",
+    "zone.js": "^0.7.7"
   }
 }
