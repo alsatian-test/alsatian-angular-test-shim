@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alsatian-test/alsatian-angular-test-shim/issues"
   },
-  "homepage": "https://github.com/alsatian-test/alsatian-angular-test-shim#readme"
+  "homepage": "https://github.com/alsatian-test/alsatian-angular-test-shim#readme",
+  "devDependencies": {
+    "typescript": "^2.2.1"
+  }
 }
