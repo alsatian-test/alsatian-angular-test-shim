@@ -1,6 +1,6 @@
 {
   "name": "alsatian-angular-test-shim",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "A shim for testing Angular component templates with Alsatian",
   "main": "index.js",
   "scripts": {
