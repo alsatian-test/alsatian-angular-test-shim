@@ -1,0 +1,19 @@
+{
+  "name": "alsatian-angular-test-shim",
+  "version": "1.0.0",
+  "description": "A shim for testing Angular component templates with Alsatian",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsatian-test/alsatian-angular-test-shim.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alsatian-test/alsatian-angular-test-shim/issues"
+  },
+  "homepage": "https://github.com/alsatian-test/alsatian-angular-test-shim#readme"
+}
